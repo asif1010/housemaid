@@ -1,0 +1,152 @@
+@charset "utf-8";
+body{
+	font-family: 
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+#nav1{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background:#1f290a;
+}
+#writing{
+	background-color:#1f290a; 
+	width:20%;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#nav1 h1 {
+	float: left;
+	font-size: 20px;
+	margin-left: 15px;
+}
+#nav1 h1 a {
+	text-decoration: none;
+	color: 	#cce698;
+
+}
+#nav1 ul a{
+	text-decoration: none;
+	color: white;
+}
+
+#nav1 ul {
+	float: right;
+	margin-right: 15px;
+
+}
+#nav1 ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+#nav1 ul li a {
+	text-decoration: none;
+	color:white;
+	padding: 25px;
+}
+ 
+#nav1 ul li :hover {
+	background: #6B8E23;
+}
+#active{
+	background: #6B8E23;
+}
+#main-content{
+	width: 100%;
+	height:600px;
+	background-size: cover;
+	text-align: center;
+	color: #e1f0c1;
+	background-image: url("textured-green-plastic-close-up.jpg");
+	
+
+
+}
+
+#service{
+	background: #003300;
+	width:180px;
+	height: 60px;
+	line-height: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 5px;
+	font-weight: 100;
+	}
+#service: hover{
+ box-shadow: 1px 5px 2px 2px rgba(84,69,0,69,0.53);
+ transition:all ease-in-out 0.45;
+}
+#service a{
+	color: white;
+	text-decoration: none;
+	padding: 10px;
+}
+
+
+
+
+#third{
+	width: 100%;
+	height: 400px;
+	background: #003300;
+}
+#third1{
+	width: 320px;
+	height: 300px;
+	padding: 5px;
+	display: inline;
+	float: left;
+
+}
+#third1 img{
+	width: 300px;
+	height: 200px;
+}
+#footer{
+	width: 100%;
+	height:100px;
+	background: #99ff99;
+	line-height: 100px;
+}
+
+#footer h2{
+	color:#00cc00;
+	float:right;
+	margin-right: 200;
+	font-weight:200;
+}
+
+#nav2 ul{
+	float:left;
+
+}
+#nav2 ul li{
+	display: inline-block;
+	list-style-type: none;
+	font-size: 30px;
+}
+#nav ul li a{
+	text-decoration: none;
+	color:white;
+	padding:10px;
+}
+#child{
+	width: 100%;
+	height: 250px;
+	background-image: url("commercial-Cleaners-e1399623339831.jpg");
+
+
+}
+#child1{
+	width: 100%;
+	height: 250px;
+	background-image: url("blue_sky.jpg");
+}
+
+
+
